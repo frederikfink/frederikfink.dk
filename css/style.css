@@ -75,6 +75,10 @@ code{
     margin-bottom: 20px;
 }
 
+.skills {
+    margin-bottom: 76px;
+}
+
 .skill_desc{
     background-color: #F3F3F3;
     border-top-left-radius: 6px;
@@ -106,5 +110,7 @@ code{
 .skill_tech ul li:first-child{
     margin-right: 26px;
 }
+
+/* work */
 
 
