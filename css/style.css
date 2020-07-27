@@ -8,9 +8,9 @@ html { font-family: 'Inter', sans-serif; }
 
 h1{}
 h2{font-weight: 400; font-size: 1.6rem; margin: 0}
-h3{}
+h3{font-size: 1.9rem; margin: 0; margin-bottom: 3px;}
 h4{}
-h5{}
+h5{font-weight: 400; font-size: 1rem; margin: 3px 0;}
 h6{font-weight: 400; font-size: 0.9rem; color: #ACACAC; margin: 12px 0;}
 
 p{}
@@ -28,6 +28,16 @@ a{
     transition: 0.1s;
 }
 
+ul, li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 6px;
+}
+
+ul{
+    padding: 0;
+}
+
 a:hover{
     background-color: #004ed4;
 }
@@ -43,8 +53,8 @@ code{
 
 /* header */
 .header_container {
-    width: 780px;
-    height: 90vh;
+    width: 800px;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,3 +70,41 @@ code{
 }
 
 /* skills */
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill_desc{
+    background-color: #F3F3F3;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+}
+
+.skill_desc img{
+    width: 48px;
+    height: 48px;
+    margin-right: 36px;
+}
+
+.skill_tech {
+    z-index: -1;
+    margin-top: -10px;
+    background-color: #D5D5D5;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.skill_tech {
+    padding: 10px 60px;
+
+}
+
+.skill_tech ul li:first-child{
+    margin-right: 26px;
+}
+
+
