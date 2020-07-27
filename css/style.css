@@ -25,6 +25,11 @@ a{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1rem;
+    transition: 0.1s;
+}
+
+a:hover{
+    background-color: #004ed4;
 }
 
 code{
@@ -36,6 +41,7 @@ code{
     margin: auto;
 }
 
+/* header */
 .header_container {
     width: 780px;
     height: 90vh;
@@ -52,3 +58,5 @@ code{
 .header_text {
     margin-left: 45px;
 }
+
+/* skills */
