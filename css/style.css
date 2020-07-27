@@ -115,6 +115,18 @@ code{
     margin-right: 26px;
 }
 
+.skill:hover > .skill_desc {
+    transition: 0.1s;
+    color: white;
+    background-color: #005eff;
+}
+
+.skill:hover > .skill_tech {
+    transition: 0.1s;
+    color: white;
+    background-color: black;
+}
+
 /* work */
 .project {
     display: flex;
@@ -154,16 +166,13 @@ code{
     align-items: center;
 }
 
-.contact {
-    /* display: flex; */
-}
 
 .direct_contact{
     display: flex;
     align-items: flex-end;
 }
 
-a {
+.direct_contact a {
     font-family: inter;
     text-transform: none;
     background-color: 0;
@@ -174,22 +183,18 @@ a {
     padding: 0;
 }
 
-/* 
-
-
-.direct_contact hr {
-    width: 100%;
-  }
-
-.direct_contact {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    flex-flow: wrap;
+.contact a:hover {
+        text-decoration: underline;
 }
 
+.social a {
+    font-family: inter;
+    text-transform: none;
+    background-color: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: transparent;
+    margin-right: 20px;
+    padding: 0;
+}
 
-
-.direct_contact p {
-    margin: 0;
-} */
